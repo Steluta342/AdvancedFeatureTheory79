@@ -1,4 +1,4 @@
-package org.example.part1_class_types;
+package org.example.part1_class_types.class_object_concrete;
 
 /*
     Ce este?
