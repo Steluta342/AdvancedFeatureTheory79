@@ -26,7 +26,14 @@ package org.example.part1_class_types.class_interface;
             specifice
  */
 
+import org.example.part1_class_types.class_abstract.Dog;
+
 public interface InterfaceAnimal {
 
     void doSound();
+    void doSmething();
+    int claculateNumber();
+    String generateText();
+    Dog getDog();
+
 }
