@@ -44,23 +44,7 @@ public class Main {
         parrotObject.doSound();
         System.out.println();
 
-        /* Clase Anonime */
 
-        //Putem instantia obiecte de tipul clasi abstracte?
-        //varianta 1. NU, este nevoie de o clasa copil care sa mosteneasca/extinde clasa abstracta
-        // care se va comporta ca o clasa parinte
-        //Varianta a 2-a de raspuns: Da, putem prin definirea si instantierea unui obiect folosind clsasele anonime,
-        // astfel incat sa oferim un corp de implementare in interiorul unei clase de apel.
-
-        /* Clasa abstracta */
-        // AbstractAnimal abstractAnimalObject = new AbstractAnimal();//Obtin o eroare -> AbstractAnimal este abstracta, nu poate fi instantiata,
-        // remedierea problemei este mai jos, corp de implementare anonima a clasei abstracte
-        AbstractAnimal abstractAnimalObject = new AbstractAnimal() {
-            @Override
-            public void makeSound() {
-
-            }
-        };
 
 
 
