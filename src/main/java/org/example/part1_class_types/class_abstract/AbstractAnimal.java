@@ -25,7 +25,7 @@ public abstract class AbstractAnimal {
     public abstract void makeSound();
 
     public void eat() {
-        System.out.println("Animalul mananca ...");
+        System.out.println("Animalul mananca  din parent class-ul Abstarct Animal...");
     }
 
 
