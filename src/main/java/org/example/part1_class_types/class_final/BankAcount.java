@@ -7,7 +7,7 @@ public final class BankAcount {
         this.accountNumber = accountNumber;
     }
     public void display() {
-        System.out.println("Account Numner: " + accountNumber);
+        System.out.println("Account Number: " + accountNumber);
     }
 
 }

@@ -3,6 +3,8 @@ package org.example.part1_class_types;
 import org.example.part1_class_types.class_abstract.AbstractAnimal;
 import org.example.part1_class_types.class_abstract.Bird;
 import org.example.part1_class_types.class_abstract.Dog;
+import org.example.part1_class_types.class_enum.AccessRole;
+import org.example.part1_class_types.class_enum.Day;
 import org.example.part1_class_types.class_final.BankAcount;
 import org.example.part1_class_types.class_final.MathUtils;
 import org.example.part1_class_types.class_interface.Crocodile;
@@ -17,7 +19,7 @@ public class Main {
         ConcreteAnimal concreteAnimalObject1 = new ConcreteAnimal();
         concreteAnimalObject1.setVarsta(3);
         concreteAnimalObject1.setRasa("Pisica");
-        ConcreteAnimal concreteAnimalObject2 = new ConcreteAnimal("caine",2);
+        ConcreteAnimal concreteAnimalObject2 = new ConcreteAnimal("caine", 2);
         System.out.println(concreteAnimalObject1);
         System.out.println(concreteAnimalObject2 + "\n");
 
@@ -63,12 +65,19 @@ public class Main {
         BankAcount bankAcount = new BankAcount("124743");
         bankAcount.display();
 
+        /*Enum CALSS*/
+        System.out.println("Enum CALSS");
+        Day dayOne = Day.LUNI;
+        Day dayThree = Day.MIERCURI;
+        Day daySix = Day.SAMBATA;
+        System.out.println(dayOne + " " + dayOne.ordinal());
+        System.out.println(dayThree + " " + dayThree.ordinal());
+        System.out.println(daySix + " " + daySix.ordinal());
 
+        AccessRole newRole = AccessRole.ADMIN;
+        System.out.println(newRole.getPriority() + " " + newRole.getAcessLevel());
 
-
-
-
-
+        //AccessRole otherRole = new AccessRole("wow", 0); //Utilizati final class, altfel primiti  pre compile error
 
     }
 }
