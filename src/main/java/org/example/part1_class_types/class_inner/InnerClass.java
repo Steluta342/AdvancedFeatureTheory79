@@ -26,10 +26,12 @@ public class InnerClass {
 
     }
     /*beneficii si scenarii comune:
-    * imbunatatirea modularizarii si a struct
+    * imbunatatirea modularizarii si a structurii
     * scopul este de  a izola o logica interna utilizata excluziv in clasa de definitie
     *
-    * diferenta principala intre ce el 2 clase se va apela la nivel de clasa  -> InnerCalas*/
+    * Diferenta principala intre cele 2 clase se va apela la nivel de clasa  -> InnerClass.StaticNestedClassExample
+    * Non static Nested Class se va apela la nivel de instanta de obiect a clasei de apelare
+    * Inner Class obj = new InnnerClass(), */
 
     public static void main(String[] args) {
         /*Clasa statica interna*/
