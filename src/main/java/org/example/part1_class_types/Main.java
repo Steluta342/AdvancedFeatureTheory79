@@ -3,6 +3,8 @@ package org.example.part1_class_types;
 import org.example.part1_class_types.class_abstract.AbstractAnimal;
 import org.example.part1_class_types.class_abstract.Bird;
 import org.example.part1_class_types.class_abstract.Dog;
+import org.example.part1_class_types.class_final.BankAcount;
+import org.example.part1_class_types.class_final.MathUtils;
 import org.example.part1_class_types.class_interface.Crocodile;
 import org.example.part1_class_types.class_interface.InterfaceAnimal;
 import org.example.part1_class_types.class_interface.Parrot;
@@ -50,6 +52,16 @@ public class Main {
         electricCar.displayStatus();
         electricCar.chargeBaterry();
         electricCar.navigateTo("Suceava");
+
+        /* Class final */
+        System.out.println();
+        MathUtils mathUtils = new MathUtils();
+        System.out.println(mathUtils.CONSTANT_TEXT);
+        //mathUtils.CONSTANT_TEXT = "Alune" -> nu merge asignat
+        //mathUtils.MAX_VALUE= 98 -> nu merge asignata valoarea la o variabila finala
+
+        BankAcount bankAcount = new BankAcount("124743");
+        bankAcount.display();
 
 
 

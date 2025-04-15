@@ -1,0 +1,17 @@
+package org.example.part1_class_types.class_final;
+
+/* final -> in functie de unde este utilizat, are o anumita definitie:
+    -- la nivel de variabila, creaza constante care impiedica reasignarea
+    -- la nivel de metoda, previne metoda in a fi suprascrisa
+    -- la nivel de clasa, previne mostenirea
+* */
+public class MathUtils {
+    public final String CONSTANT_TEXT = " This is a constant!";
+    public static final int MAX_VALUE = 99;
+
+    //In momentul in care MathUtils va fi mostenita, nu vom putea suprascrie aceasta metoda
+    //daca se incearca suprascrirea , va arunca o eroare de compilare
+    public final double calculateSquareValue(int number) {
+        return Math.sqrt(number);
+    }
+}
