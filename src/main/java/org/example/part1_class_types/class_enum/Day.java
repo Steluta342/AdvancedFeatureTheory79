@@ -5,4 +5,6 @@ Am creat o enumeratie de elemente constante, inseamna ca nu putem reasigna valoa
 */
 public enum Day {
     LUNI, MARTI, MIERCURI, JOI, VINERI, SAMBATA, DUMINICA //Sunt obiecte de tipul ...
+    /* DPDV LOGIC NU LUCREAZA IMPREUNA
+    fie enum cu constanta, fie clase finale... */
 }

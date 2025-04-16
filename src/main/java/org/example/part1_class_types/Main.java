@@ -65,7 +65,7 @@ public class Main {
         BankAcount bankAcount = new BankAcount("124743");
         bankAcount.display();
 
-        /*Enum CALSS*/
+        /* Enum CALSS */
         System.out.println("Enum CALSS");
         Day dayOne = Day.LUNI;
         Day dayThree = Day.MIERCURI;

@@ -8,6 +8,7 @@ public enum Sizes {
     private final String marime;
 
     Sizes(String s) {
+
         this.marime = s;
     }
 }

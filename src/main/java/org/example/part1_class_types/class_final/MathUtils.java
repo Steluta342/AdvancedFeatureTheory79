@@ -10,7 +10,7 @@ public class MathUtils {
     public static final int MAX_VALUE = 99;
 
     //In momentul in care MathUtils va fi mostenita, nu vom putea suprascrie aceasta metoda
-    //daca se incearca suprascrirea , va arunca o eroare de compilare
+    //daca se incearca suprascrierea , va arunca o eroare de compilare
     public final double calculateSquareValue(int number) {
         return Math.sqrt(number);
     }
