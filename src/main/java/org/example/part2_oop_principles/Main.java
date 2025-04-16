@@ -40,7 +40,7 @@ public class Main {
 
         System.out.println(developer.add(4, 4));
         System.out.println(developer.add(4.2, 4));
-        System.out.println(developer.add(16546, 584));
+        System.out.println(developer.add(16546L, 5845344787654L));
     }
 
 
