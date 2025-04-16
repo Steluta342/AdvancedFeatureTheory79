@@ -1,5 +1,7 @@
 package org.example.part2_oop_principles;
 
+import org.example.part2_oop_principles.composition.Car;
+import org.example.part2_oop_principles.composition.Engine;
 import org.example.part2_oop_principles.encapsulation.UserAccount;
 import org.example.part2_oop_principles.inheritance.Chef;
 import org.example.part2_oop_principles.inheritance.Employee;
@@ -41,6 +43,15 @@ public class Main {
         System.out.println(developer.add(4, 4));
         System.out.println(developer.add(4.2, 4));
         System.out.println(developer.add(16546L, 5845344787654L));
+        System.out.println();
+
+        /*Composition */
+        Engine engine = new Engine(34,"mare rau");
+        Car car = new Car(engine, "WW", "Golf", "B830DST");
+
+        System.out.println(engine);
+        System.out.println(car);
+
     }
 
 
