@@ -4,6 +4,8 @@ import org.example.part2_oop_principles.encapsulation.UserAccount;
 import org.example.part2_oop_principles.inheritance.Chef;
 import org.example.part2_oop_principles.inheritance.Employee;
 import org.example.part2_oop_principles.inheritance.Waiter;
+import org.example.part2_oop_principles.polymorphism.Developer;
+import org.example.part2_oop_principles.polymorphism.FrontEndDev;
 
 public class Main {
     public static void main(String[] args) {
@@ -28,5 +30,18 @@ public class Main {
 
         System.out.println("Input din parent class Waiter: " + waiter.generateText());
         waiter.sayHi();
+
+        /*Polimorphism */
+        Developer developer = new Developer();
+        FrontEndDev frontEndDev = new FrontEndDev();
+
+        developer.work();
+        frontEndDev.work();
+
+        System.out.println(developer.add(4, 4));
+        System.out.println(developer.add(4.2, 4));
+        System.out.println(developer.add(16546, 584));
     }
+
+
 }
