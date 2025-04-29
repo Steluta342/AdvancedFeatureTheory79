@@ -24,7 +24,7 @@ public class LinkedListExample {
                 }
 
         System.out.println("\n--------------");
-
+        //todo: NU merge Previous... de remediat
         ListIterator<String> prevlistIterator = books.listIterator();
         while(prevlistIterator.hasPrevious()){
             System.out.print(prevlistIterator.previous() + " ");
